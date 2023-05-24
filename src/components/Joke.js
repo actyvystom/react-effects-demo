@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 export default function Joke() {
   // Declare state variable joke + setter
   const [jokeState, setJokeState] = useState();
+  // Declare state variable nextIdState + setter
   const [nextIdState, setNextIdState] = useState(0);
   // use effect to encapsulate side effect (fetch)
   useEffect(() => {
